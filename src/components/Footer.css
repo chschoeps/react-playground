@@ -1,0 +1,11 @@
+.footer {
+    background: #439a86ff;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.footer-link {
+    margin-right: 16px;
+}

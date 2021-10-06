@@ -1,0 +1,27 @@
+.menu-link {
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.dark {
+    color: #222e50ff;
+    background: #439a86ff;
+}
+
+.light {
+    color: #bcd8c1ff;
+    background: #007991ff;
+}
+
+.light:hover {
+    color: #439a86ff;
+}
+
+.dark:hover {
+    color: #bcd8c1ff;
+}
+
+.menu-link-active {
+    color: #e9d985ff;
+}

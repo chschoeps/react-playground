@@ -1,0 +1,6 @@
+.content {
+    background: #bcd8c1ff;
+    height: calc(100vh - 60px - 50px - 40px);
+    padding: 20px;
+    overflow-scrolling: initial;
+}

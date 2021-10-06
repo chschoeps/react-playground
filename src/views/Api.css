@@ -1,0 +1,6 @@
+.user-list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100vh - 60px - 50px - 40px - 20px);
+    background: #bcd8c1ff;
+}
