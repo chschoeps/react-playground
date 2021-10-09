@@ -50,8 +50,8 @@ class Api extends React.Component {
                         <thead>
                             <tr>
                                 <th>id</th>
-                                <th>{t('Firstname')}</th>
-                                <th>{t('Lastname')}</th>
+                                <th>{t('firstname')}</th>
+                                <th>{t('lastname')}</th>
                             </tr>
                         </thead>
                         <tbody>
