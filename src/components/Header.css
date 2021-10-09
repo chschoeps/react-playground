@@ -7,4 +7,11 @@
 
 .menu {
     margin-left: 16px;
+    background: #7562c7;
+}
+
+.right-element {
+    margin-left: auto;
+    margin-right: 16px;
+    background: #bcd8c1ff;
 }
