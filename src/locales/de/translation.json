@@ -1,0 +1,7 @@
+{
+  "firstname": "Vorname",
+  "lastname": "Nachname",
+  "de": "Deutsch",
+  "en": "Englisch",
+  "homeText": "Einfach ein React-Spielplatz um Zeuch zu lernen!"
+}

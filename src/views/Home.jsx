@@ -1,6 +1,9 @@
+import {useTranslation} from "react-i18next";
+
 const Home = () => {
+    const {t} = useTranslation();
     return (
-        <div>Just a React playground to learn stuff</div>
+        <div>{t('homeText')}</div>
     )
 }
 export default Home;
