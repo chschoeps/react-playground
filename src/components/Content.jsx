@@ -18,20 +18,6 @@ const Content = () => {
                 <Route path="/api" component={Api} />
                 <Route path="/" component={Home} />
             </Switch>
-           {/* <Switch>
-                <Route exact path="/">
-                    <Home />
-                </Route>
-                <Route path="/about">
-                    <About />
-                </Route>
-                <Route path="/contact">
-                    <Contact />
-                </Route>
-                <Route path="/profile">
-                    <Profile />
-                </Route>
-            </Switch>*/}
         </div>
     );
 }
