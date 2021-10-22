@@ -7,6 +7,7 @@ import Contact from "../views/Contact";
 import Home from "../views/Home";
 import Profile from "../views/Profile";
 import Api from "../views/Api";
+import LifecycleHooks from "../views/LifecycleHooks";
 
 const Content = () => {
     return (
@@ -15,6 +16,7 @@ const Content = () => {
                 <Route path="/profile" component={Profile}/>
                 <Route path="/about" component={About} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/lifecycleHooks" component={LifecycleHooks} />
                 <Route path="/api" component={Api} />
                 <Route path="/" component={Home} />
             </Switch>

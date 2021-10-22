@@ -1,7 +1,7 @@
 import './MenuLink.css';
 import {Link, useRouteMatch} from "react-router-dom";
 
-const MenuLink = ({to, label, activeOnlyWhenExact, dark}) => {
+const MenuLink = ({to, label, activeOnlyWhenExact, dark, state}) => {
     let match = useRouteMatch({
        path: to,
        exact: activeOnlyWhenExact,
@@ -14,7 +14,7 @@ const MenuLink = ({to, label, activeOnlyWhenExact, dark}) => {
         className = match ? "menu-link-active menu-link light" : "menu-link light"
     }
     return (
-        <Link className={className} to={to}>{label}</Link>
+        <Link className={className} state={state} to={to}>{label}</Link>
     )
 };
 
