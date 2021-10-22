@@ -27,7 +27,7 @@ class LanguageChooser extends React.Component {
         }
     }
 
-    componentWillMount() {
+    componentDidMount() {
         // i18n.language = this.state.currentLanguage;
         console.log('componentWillMount', this.state.currentLanguage)
         i18n.changeLanguage(this.state.currentLanguage).then();
